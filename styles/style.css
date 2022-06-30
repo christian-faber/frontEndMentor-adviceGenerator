@@ -57,10 +57,13 @@ body {
 }
 
 .text {
+  position: absolute;
+  top: 30px;
   font-size: 1.5rem;
   margin: 30px;
   color: white;
   max-height: 45%;
+  text-align: center;
 }
 
 .break {
@@ -79,4 +82,21 @@ body {
   align-items: center;
   position: absolute;
   bottom: -32px;
+}
+
+.dice:hover {
+  box-shadow: 0 0px 20px var(--neon-green);
+}
+
+@media (min-width: 650px) {
+  .card {
+    width: 550px;
+    margin-top: 15%;
+  }
+  .attribution {
+    bottom: 5%;
+  }
+  .text {
+    text-align: center;
+  }
 }
