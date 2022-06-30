@@ -7,7 +7,7 @@ async function getAdvice() {
   displayId(data.slip);
 
   function displayData(data) {
-    document.getElementById("advice").innerHTML = data.advice;
+    document.getElementById("advice").innerHTML = `"${data.advice}"`;
   }
 
   function displayId(data) {

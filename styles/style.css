@@ -16,6 +16,9 @@
   font-size: 11px;
   text-align: center;
   margin-top: 30px;
+  position: absolute;
+  bottom: 10%;
+  color: white;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -29,6 +32,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: var(--dark-blue);
 }
 .card {
   display: flex;
@@ -37,8 +41,10 @@ body {
   align-items: center;
   width: 345px;
   height: 320px;
-  background-color: var(--grayish-blue);
-  position: rel;
+  background-color: var(--dark-grayish-blue);
+  position: relative;
+  margin-top: 25%;
+  border-radius: 1rem;
 }
 
 .num {
@@ -46,23 +52,31 @@ body {
   font-size: 1rem;
   text-transform: uppercase;
   color: var(--neon-green);
+  position: absolute;
+  top: 5%;
 }
 
 .text {
-  margin: 7%;
+  font-size: 1.5rem;
+  margin: 30px;
   color: white;
+  max-height: 45%;
 }
 
 .break {
   color: cyan;
+  position: absolute;
+  bottom: 62px;
 }
 
 .dice {
   display: flex;
   background-color: var(--neon-green);
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 65px;
+  height: 65px;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: -32px;
 }
